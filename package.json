@@ -1,18 +1,14 @@
 {
   "name": "netflix-clone",
   "version": "1.0.0",
+  "description": "",
+  "type": "module",
   "main": "backend/server.js",
   "scripts": {
-  "dev":   "cross-env NODE_ENV=development nodemon backend/server.js",
-  "start": "cross-env NODE_ENV=production  node backend/server.js",
-  "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
-}
-,
-  "keywords": [],
-  "author": "",
-  "type": "module",
-  "license": "ISC",
-  "description": "",
+    "dev": "cross-env NODE_ENV=development nodemon backend/server.js",
+    "start": "cross-env NODE_ENV=production node backend/server.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+  },
   "dependencies": {
     "@eslint/js": "^9.16.0",
     "axios": "^1.7.7",
@@ -31,5 +27,8 @@
   "devDependencies": {
     "cross-env": "^7.0.3",
     "nodemon": "^3.1.7"
-  }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
